@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="vinylCore" xmlns="vinylCore">
+
+    <!-- VINYL (root) -->
+    <xs:element name="vinyl" type="vinylWrapper"/>
+        <xs:complexType name="vinylWrapper">
+            <xs:sequence>
+                <xs:element ref="album" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="recordingArtist" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="recordLabel" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="vinylProperties" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="trackList" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="accompanyingMaterial" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="acquisition" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="condition" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="monetaryValue" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+        </xs:complexType>
+
+        <!-- ALBUM -->
+        <xs:element name="album">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="albumTitle" minOccurs="1" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:attribute name="language" type="xs:language"/>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="albumSubtitle" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:attribute name="language" type="xs:language"/>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="albumAlternateTitle" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:attribute name="language" type="xs:language"/>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="albumIssue" minOccurs="0" maxOccurs="1">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="first press"/>
+                                <xs:enumeration value="repress"/>
+                                <xs:enumeration value="reissue"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="albumEdition" minOccurs="0" maxOccurs="unbounded">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="deluxe edition"/>
+                                <xs:enumeration value="limited edition"/>
+                                <xs:enumeration value="special edition"/>
+                                <xs:enumeration value="club edition"/>
+                                <xs:enumeration value="unofficial release"/>
+                                <xs:enumeration value="remastered"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="catalogNumber" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="albumReleaseDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="albumYear" type="xs:gYear" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="albumGenre" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                    <xs:element name="albumCountryOfOrigin" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="albumCoverDescription" type="xs:string" minOccurs="0"
+                        maxOccurs="1"/>
+                    <xs:element name="boxSetAffiliation" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="albumNote" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- RECORDING ARTIST -->
+        <xs:element name="recordingArtist">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="recordingArtistName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="recordingArtistAlternateName" type="xs:string" minOccurs="0"
+                        maxOccurs="unbounded"/>
+                    <xs:element name="recordingArtistNationality" type="xs:string" minOccurs="0"
+                        maxOccurs="unbounded"/>
+                    <xs:element name="recordingArtistNote" type="xs:string" minOccurs="0"
+                        maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- RECORD LABEL -->
+        <xs:element name="recordLabel">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="recordLabelName" minOccurs="0" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:attribute name="language" type="xs:language"/>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="recordLabelAddress" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="recordLabelWebsite" type="xs:string" minOccurs="0"
+                        maxOccurs="unbounded"/>
+                    <xs:element name="recordLabelDescription" type="xs:string" minOccurs="0"
+                        maxOccurs="1"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- VINYL PROPERTIES -->
+        <xs:element name="vinylProperties">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="vinylSize" minOccurs="1" maxOccurs="1">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="16 in"/>
+                                <xs:enumeration value="12 in"/>
+                                <xs:enumeration value="11 in"/>
+                                <xs:enumeration value="10 in"/>
+                                <xs:enumeration value="9 in"/>
+                                <xs:enumeration value="8 in"/>
+                                <xs:enumeration value="7 in"/>
+                                <xs:enumeration value="6 ½ in"/>
+                                <xs:enumeration value="6 in"/>
+                                <xs:enumeration value="5 ½ in"/>
+                                <xs:enumeration value="5 in"/>
+                                <xs:enumeration value="4 in"/>
+                                <xs:enumeration value="3 in"/>
+                                <xs:enumeration value="2 in"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="vinylColor" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                    <xs:element name="vinylSpeed" minOccurs="1" maxOccurs="1">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="8 ⅓ RPM"/>
+                                <xs:enumeration value="16 ⅔ RPM"/>
+                                <xs:enumeration value="33 ⅓ RPM"/>
+                                <xs:enumeration value="45 RPM"/>
+                                <xs:enumeration value="78 RPM"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="soundChannelType" minOccurs="0" maxOccurs="1">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="stereo"/>
+                                <xs:enumeration value="mono"/>
+                                <xs:enumeration value="quadraphonic"/>
+                                <xs:enumeration value="ambisonic"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- TRACK LIST -->
+        <xs:element name="trackList">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="trackTitle" minOccurs="1" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:attribute name="discNumber" type="xs:float"/>
+                            <xs:attribute name="vinylSide">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="a"/>
+                                        <xs:enumeration value="b"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:attribute>
+                            <xs:attribute name="trackPosition" type="xs:float"/>
+                            <xs:attribute name="language" type="xs:language"/>
+                            <xs:attribute name="trackDuration" type="xs:duration"/>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- ACCOMPANYING MATERIAL -->
+        <xs:element name="accompanyingMaterial">
+            <xs:complexType>
+            <xs:sequence>
+                <xs:element name="accompanyingMaterialType" type="xs:string" minOccurs="1"
+                    maxOccurs="1"/>
+                <xs:element name="accompanyingMaterialDescription" type="xs:string" minOccurs="0"
+                    maxOccurs="1"/>
+            </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- ACQUISITION -->
+        <xs:element name="acquisition">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="acquisitionDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="acquiredFrom" minOccurs="1" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:attribute name="acquiredFromType">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="person"/>
+                                        <xs:enumeration value="marketplace"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:attribute>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="purchasePrice" minOccurs="0" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                    <xs:attribute name="currency" type="xs:string"/>
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="acquisitionNote" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- CONDITION -->
+        <xs:element name="condition">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="vinylCondition" minOccurs="1" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="discCondition" minOccurs="0" maxOccurs="1">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="mint"/>
+                                            <xs:enumeration value="near-mint"/>
+                                            <xs:enumeration value="very good plus"/>
+                                            <xs:enumeration value="very good"/>
+                                            <xs:enumeration value="good plus"/>
+                                            <xs:enumeration value="fair"/>
+                                            <xs:enumeration value="poor"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="discConditionNote" type="xs:string" minOccurs="0"
+                                    maxOccurs="1"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="packagingCondition" minOccurs="0" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="jacketCondition" minOccurs="0" maxOccurs="1">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="mint"/>
+                                            <xs:enumeration value="near-mint"/>
+                                            <xs:enumeration value="very good plus"/>
+                                            <xs:enumeration value="very good"/>
+                                            <xs:enumeration value="good plus"/>
+                                            <xs:enumeration value="fair"/>
+                                            <xs:enumeration value="poor"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="jacketConditionNote" type="xs:string" minOccurs="0"
+                                    maxOccurs="1"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <!-- MONETARY VALUE -->
+        <xs:element name="monetaryValue">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="valueAssessed" minOccurs="0" maxOccurs="1">
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                    <xs:attribute name="currency" type="xs:string"/>
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="dateOfAssessment" type="xs:date" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="sourceOfAssessment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+</xs:schema>
