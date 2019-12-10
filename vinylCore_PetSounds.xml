@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vinylCore:vinyl xmlns:vinylCore="vinylCore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="vinylCore http://mschafr2.web.illinois.edu/vinylCore.xsd">
+    <vinylCore:album>
+        <vinylCore:albumTitle language="en-US">Pet Sounds</vinylCore:albumTitle>
+        <vinylCore:albumIssue>reissue</vinylCore:albumIssue>
+        <vinylCore:albumEdition>deluxe edition</vinylCore:albumEdition>
+        <vinylCore:catalogNumber>ST 2458</vinylCore:catalogNumber>
+        <vinylCore:albumReleaseDate>2016-06-10</vinylCore:albumReleaseDate>
+        <vinylCore:albumYear>2016</vinylCore:albumYear>
+        <vinylCore:albumGenre>psychedelic pop</vinylCore:albumGenre>
+        <vinylCore:albumCountryOfOrigin>United States</vinylCore:albumCountryOfOrigin>
+        <vinylCore:albumCoverDescription>The album cover has the classic image of the Beach Boys feeding goats. This cover is the same as the original edition.</vinylCore:albumCoverDescription>
+        <vinylCore:albumNote>This is the 50th Anniversary Edition.</vinylCore:albumNote>
+    </vinylCore:album>
+    <vinylCore:recordingArtist>
+        <vinylCore:recordingArtistName>The Beach Boys</vinylCore:recordingArtistName>
+    </vinylCore:recordingArtist>
+    <vinylCore:recordLabel>
+        <vinylCore:recordLabelName language="en-US">Capitol Records</vinylCore:recordLabelName>
+        <vinylCore:recordLabelAddress>1750 N. Vine Street, Hollywood, CA 90028 - U.S.A.</vinylCore:recordLabelAddress>
+    </vinylCore:recordLabel>
+    <vinylCore:vinylProperties>
+        <vinylCore:vinylSize>12 in</vinylCore:vinylSize>
+        <vinylCore:vinylColor>black</vinylCore:vinylColor>
+        <vinylCore:vinylSpeed>33 ⅓ RPM</vinylCore:vinylSpeed>
+        <vinylCore:soundChannelType>stereo</vinylCore:soundChannelType>
+    </vinylCore:vinylProperties>
+    <vinylCore:trackList>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="1" language="en-US" trackDuration="00:02:22">Wouldn't It Be Nice</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="2" language="en-US" trackDuration="00:02:33">You Still Believe In Me</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="3" language="en-US" trackDuration="00:02:27">That's Not Me</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="4" language="en-US" trackDuration="00:02:52">Don't Talk (Put Your Head On My Shoulder)</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="5" language="en-US" trackDuration="00:03:01">I'm Waiting For The Day</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="6" language="en-US" trackDuration="00:02:18">Let's Go Away For Awhile</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="7" language="en-US" trackDuration="00:02:57">Sloop John B</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="1" language="en-US" trackDuration="00:02:46">God Only Knows</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="2" language="en-US" trackDuration="00:03:10">I Know There's An Answer</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="3" language="en-US" trackDuration="00:02:38">Here Today</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="4" language="en-US" trackDuration="00:03:21">I Just Wasn't Made For These Times</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="5" language="en-US" trackDuration="00:02:20">Pet Sounds</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="6" language="en-US" trackDuration="00:02:16">Caroline, No</vinylCore:trackTitle>
+    </vinylCore:trackList>
+    <vinylCore:acquisition>
+        <vinylCore:acquisitionDate>2019-08-10</vinylCore:acquisitionDate>
+        <vinylCore:acquiredFrom acquiredFromType="marketplace">Amoeba Music</vinylCore:acquiredFrom>
+        <vinylCore:purchasePrice currency="US dollar">$24.98</vinylCore:purchasePrice>
+        <vinylCore:acquisitionNote>This album was purchased at the original Amoeba Music location in Los Angeles, California.</vinylCore:acquisitionNote>
+    </vinylCore:acquisition>
+    <vinylCore:condition>
+        <vinylCore:vinylCondition>
+            <vinylCore:discCondition>near-mint</vinylCore:discCondition>
+            <vinylCore:discConditionNote>The disc is in mint condition, but the label is in near-mint condition because it is a little ripped.</vinylCore:discConditionNote>
+        </vinylCore:vinylCondition>
+        <vinylCore:packagingCondition>
+            <vinylCore:jacketCondition>mint</vinylCore:jacketCondition>
+        </vinylCore:packagingCondition>
+    </vinylCore:condition>
+</vinylCore:vinyl>

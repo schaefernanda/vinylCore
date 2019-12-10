@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vinylCore:vinyl xmlns:vinylCore="vinylCore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="vinylCore https://mschafr2.web.illinois.edu/vinylCore.xsd">
+    <vinylCore:album>
+        <vinylCore:albumTitle language="en-US">Million Dollar Quartet</vinylCore:albumTitle>
+        <vinylCore:albumSubtitle language="en-US">The Complete Session in its Original Sequence</vinylCore:albumSubtitle>
+        <vinylCore:albumEdition>remastered</vinylCore:albumEdition>
+        <vinylCore:catalogNumber>772170</vinylCore:catalogNumber>
+        <vinylCore:albumReleaseDate>2017-02-24</vinylCore:albumReleaseDate>
+        <vinylCore:albumYear>2017</vinylCore:albumYear>
+        <vinylCore:albumGenre>rock &#038; roll</vinylCore:albumGenre>
+        <vinylCore:albumGenre>christmas</vinylCore:albumGenre>
+        <vinylCore:albumCountryOfOrigin>United States</vinylCore:albumCountryOfOrigin>
+        <vinylCore:albumCoverDescription>"Cover Photo: Michael Ochs Archives / Getty Images"</vinylCore:albumCoverDescription>
+        <vinylCore:albumNote>"Recorded by Jack Clement at Sun Studio, Memphis, on Tuesday afternoon, December 4, 1956."</vinylCore:albumNote>
+        <vinylCore:albumNote>"Original recordings produced by Sam Phillips."</vinylCore:albumNote>
+    </vinylCore:album>
+    <vinylCore:recordingArtist>
+        <vinylCore:recordingArtistName>Elvis Presley</vinylCore:recordingArtistName>
+        <vinylCore:recordingArtistNationality>United States</vinylCore:recordingArtistNationality>
+        <vinylCore:recordingArtistNote>vocals and piano</vinylCore:recordingArtistNote>
+    </vinylCore:recordingArtist>
+    <vinylCore:recordingArtist>
+        <vinylCore:recordingArtistName>Carl Perkins</vinylCore:recordingArtistName>
+        <vinylCore:recordingArtistNationality>United States</vinylCore:recordingArtistNationality>
+        <vinylCore:recordingArtistNote>vocals and guitar</vinylCore:recordingArtistNote>
+    </vinylCore:recordingArtist>
+    <vinylCore:recordingArtist>
+        <vinylCore:recordingArtistName>Jerry Lee Lewis</vinylCore:recordingArtistName>
+        <vinylCore:recordingArtistNationality>United States</vinylCore:recordingArtistNationality>
+        <vinylCore:recordingArtistNote>vocals and piano</vinylCore:recordingArtistNote>
+    </vinylCore:recordingArtist>
+    <vinylCore:recordingArtist>
+        <vinylCore:recordingArtistName>Johnny Cash</vinylCore:recordingArtistName>
+        <vinylCore:recordingArtistNationality>United States</vinylCore:recordingArtistNationality>
+        <vinylCore:recordingArtistNote>vocals</vinylCore:recordingArtistNote>
+    </vinylCore:recordingArtist>
+    <vinylCore:recordLabel>
+        <vinylCore:recordLabelName language="en-US">WaxTimeRecords</vinylCore:recordLabelName>
+    </vinylCore:recordLabel>
+    <vinylCore:vinylProperties>
+        <vinylCore:vinylSize>12 in</vinylCore:vinylSize>
+        <vinylCore:vinylColor>black</vinylCore:vinylColor>
+        <vinylCore:vinylSpeed>33 ⅓ RPM</vinylCore:vinylSpeed>
+    </vinylCore:vinylProperties>
+    <vinylCore:trackList>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="1" language="en-US" trackDuration="00:01:46">Untitled Instrumental</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="2" language="en-US" trackDuration="00:01:01">Love Me Tender - Instrumental</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="3" language="en-US" trackDuration="00:01:58">Jingle Bells - Instrumental</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="4" language="en-US" trackDuration="00:02:07">White Christmas - Instrumental</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="5" language="en-US" trackDuration="00:02:42">Reconsider Baby</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="6" language="en-US" trackDuration="00:02:21">Don't Be Cruel</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="7" language="en-US" trackDuration="00:02:12">Don't Be Cruel - Take 2</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="8" language="en-US" trackDuration="00:03:00">Paralyzed</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="9" language="en-US" trackDuration="00:00:36">Don't Be Cruel - Take 3</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="10" language="en-US" trackDuration="00:03:38">There's No Place Like Home</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="1" language="en-US" trackDuration="00:02:15">When The Saints Go Marchin' In</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="2" language="en-US" trackDuration="00:02:45">Softly and Tenderly</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="3" language="en-US" trackDuration="00:00:18">When God Dips His Love in My Heart</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="4" language="en-US" trackDuration="00:04:14">Just a Little Talk With Jesus</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="5" language="en-US" trackDuration="00:03:33">Jesus Walked That Lonesome Valley</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="6" language="en-US" trackDuration="00:03:44">I Shall Not Be Moved</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="7" language="en-US" trackDuration="00:01:33">Peace in the Valley</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="8" language="en-US" trackDuration="00:02:26">Down by the Riverside</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="1" language="en-US" trackDuration="00:01:16">I'm With a Crowd but so Alone</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="2" language="en-US" trackDuration="00:02:08">Farther Along</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="3" language="en-US" trackDuration="00:01:26">Blessed Jesus (Hold my Hand)</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="4" language="en-US" trackDuration="00:00:53">(As We Travel Along) on the Jericho Road</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="5" language="en-US" trackDuration="00:01:03">I Just Can't Make it by Myself</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="6" language="en-US" trackDuration="00:00:47">Little Cabin Home on the Hill</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="7" language="en-US" trackDuration="00:00:12">Summertime is Past and Gone</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="8" language="en-US" trackDuration="00:00:36">I Hear a Sweet Voice Calling</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="9" language="en-US" trackDuration="00:00:30">Sweetheart You Done Me Wrong</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="10" language="en-US" trackDuration="00:02:06">Keeper of the Key [Carl Perkins Feature]</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="11" language="en-US" trackDuration="00:00:17">Crazy Arms</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="12" language="en-US" trackDuration="00:01:19">Don't Forbid Me</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="13" language="en-US" trackDuration="00:00:05">Too Much Monkey Business</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="14" language="en-US" trackDuration="00:01:15">Brown Eyed Handsome Man</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="a" trackPosition="15" language="en-US" trackDuration="00:00:37">Out of Sight, Out of Mind</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="1" language="en-US" trackDuration="00:01:53">Brown Eyed Handsome Man - Take 2</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="2" language="en-US" trackDuration="00:00:50">Don't Forbid Me - Take 2</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="3" language="en-US" trackDuration="00:01:12">You Belong to My Heart</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="4" language="en-US" trackDuration="00:01:19">Is it so Strange</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="5" language="en-US" trackDuration="00:04:55">That's When Your Heartaches Begin</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="6" language="en-US" trackDuration="00:00:20">Brown Eyed Handsome Man - Take 3</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="7" language="en-US" trackDuration="00:00:22">Rip it Up</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="8" language="en-US" trackDuration="00:00:56">I'm Gonna Bid My Blues Goodbye</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="9" language="en-US" trackDuration="00:03:35">Crazy Arms</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="10" language="en-US" trackDuration="00:01:56">That's My Desire</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="11" language="en-US" trackDuration="00:01:49">End of the Road</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="12" language="en-US" trackDuration="00:01:11">Black Bottom Stomp</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="13" language="en-US" trackDuration="00:01:12">You're the Only Star in my Blue Heaven</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="2" vinylSide="b" trackPosition="14" language="en-US" trackDuration="00:00:43">Elvis Says Farewell</vinylCore:trackTitle>
+    </vinylCore:trackList>
+    <vinylCore:acquisition>
+        <vinylCore:acquisitionDate>2019-10-29</vinylCore:acquisitionDate>
+        <vinylCore:acquiredFrom acquiredFromType="marketplace">DiscountVinylRecords</vinylCore:acquiredFrom>
+        <vinylCore:purchasePrice currency="US dollar">$18.99</vinylCore:purchasePrice>
+        <vinylCore:acquisitionNote>This album was purchased for a final project for Metadata in Theory and Practice.</vinylCore:acquisitionNote>
+    </vinylCore:acquisition>
+    <vinylCore:condition>
+        <vinylCore:vinylCondition>
+            <vinylCore:discCondition>near-mint</vinylCore:discCondition>
+        </vinylCore:vinylCondition>
+        <vinylCore:packagingCondition>
+            <vinylCore:jacketCondition>near-mint</vinylCore:jacketCondition>
+        </vinylCore:packagingCondition>
+    </vinylCore:condition>
+    <vinylCore:monetaryValue>
+        <vinylCore:valueAssessed currency="US dollar">$20.88</vinylCore:valueAssessed>
+        <vinylCore:dateOfAssessment>2019-12-09</vinylCore:dateOfAssessment>
+        <vinylCore:sourceOfAssessment>Amazon Global Store UK</vinylCore:sourceOfAssessment>
+    </vinylCore:monetaryValue>
+</vinylCore:vinyl>

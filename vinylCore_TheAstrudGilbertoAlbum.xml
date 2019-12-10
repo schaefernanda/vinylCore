@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vinylCore:vinyl xmlns:vinylCore="vinylCore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="vinylCore http://mschafr2.web.illinois.edu/vinylCore.xsd">
+    <vinylCore:album>
+        <vinylCore:albumTitle language="en-US">The Astrud Gilberto Album</vinylCore:albumTitle>
+        <vinylCore:albumIssue>reissue</vinylCore:albumIssue>
+        <vinylCore:catalogNumber>V6-8608</vinylCore:catalogNumber>
+        <vinylCore:albumReleaseDate>2011-10-01</vinylCore:albumReleaseDate>
+        <vinylCore:albumYear>2011</vinylCore:albumYear>
+        <vinylCore:albumGenre>bossa nova</vinylCore:albumGenre>
+        <vinylCore:albumCountryOfOrigin>United States</vinylCore:albumCountryOfOrigin>
+    </vinylCore:album>
+    <vinylCore:recordingArtist>
+        <vinylCore:recordingArtistName>Astrud Gilberto</vinylCore:recordingArtistName>
+        <vinylCore:recordingArtistNationality>Brazil</vinylCore:recordingArtistNationality>
+        <vinylCore:recordingArtistNote>From 1959-1964, Astrud Gilberto was married to Brazilian singer João Gilberto, a pioneer of bossa nova.</vinylCore:recordingArtistNote>
+    </vinylCore:recordingArtist>
+    <vinylCore:recordLabel>
+        <vinylCore:recordLabelName language="en-US">The Verve Music Group</vinylCore:recordLabelName>
+        <vinylCore:recordLabelDescription>This album was recorded at RCA Studios but was licensed by Metro-Goldwyn-Mayer, Inc. (Verve Series).</vinylCore:recordLabelDescription>
+    </vinylCore:recordLabel>
+    <vinylCore:vinylProperties>
+        <vinylCore:vinylSize>12 in</vinylCore:vinylSize>
+        <vinylCore:vinylColor>black</vinylCore:vinylColor>
+        <vinylCore:vinylSpeed>33 ⅓ RPM</vinylCore:vinylSpeed>
+        <vinylCore:soundChannelType>stereo</vinylCore:soundChannelType>
+    </vinylCore:vinylProperties>
+    <vinylCore:trackList>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="1" language="en-US" trackDuration="00:02:10">Once I Loved</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="2" language="pt-BR" trackDuration="00:02:18">Água De Beber</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="3" language="en-US" trackDuration="00:02:39">Meditation</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="4" language="en-US" trackDuration="00:02:30">And Roses And Roses</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="5" language="pt-BR" trackDuration="00:02:55">O Morro Não Tem Vez</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="a" trackPosition="6" language="en-US" trackDuration="00:02:45">How Insensitive</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="1" language="pt-BR" trackDuration="00:02:45">Dindi</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="2" language="en-US" trackDuration="00:02:12">Photograph</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="3" language="en-US" trackDuration="00:02:00">Dreamer</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="4" language="pt-BR" trackDuration="00:02:15">Só Tinha De Ser Com Você</vinylCore:trackTitle>
+        <vinylCore:trackTitle discNumber="1" vinylSide="b" trackPosition="5" language="en-US" trackDuration="00:03:09">All That's Left Is To Say Goodbye</vinylCore:trackTitle>
+    </vinylCore:trackList>
+    <vinylCore:acquisition>
+        <vinylCore:acquiredFrom acquiredFromType="marketplace">Amoeba Music</vinylCore:acquiredFrom>
+        <vinylCore:purchasePrice currency="US dollar">$29.98</vinylCore:purchasePrice>
+        <vinylCore:acquisitionNote>This album was purchased at the original Amoeba Music location in Los Angeles, California, in the summer of 2019.</vinylCore:acquisitionNote>
+    </vinylCore:acquisition>
+    <vinylCore:condition>
+        <vinylCore:vinylCondition>
+            <vinylCore:discCondition>mint</vinylCore:discCondition>
+        </vinylCore:vinylCondition>
+        <vinylCore:packagingCondition>
+            <vinylCore:jacketCondition>mint</vinylCore:jacketCondition>
+        </vinylCore:packagingCondition>
+    </vinylCore:condition>
+</vinylCore:vinyl>
