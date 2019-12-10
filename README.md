@@ -1,3 +1,5 @@
+![vinylCore_Logo](https://user-images.githubusercontent.com/40001727/70500754-eb8be880-1ae1-11ea-9850-814113465f4d.png)
+
 # vinylCore
 A metadata schema for amateur collectors of vinyl records.
 
